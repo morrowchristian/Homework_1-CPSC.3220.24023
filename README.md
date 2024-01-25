@@ -7,33 +7,56 @@ Each team is required to submit the following components:
 
 Submission Instructions:
 
-1. A zip file named hw1.zip containing all the necessary files to support the project.
-2. A PDF file named hw1.pdf that provides a brief overview of how the project was implemented and outlines the contributions of each team member.
-3. Include a YouTube video link in the comments to demonstrate the project's correctness and completeness.
+1. Submit a zip file (hw1.zip) containing all project files.
+2. Submit a PDF file (hw1.pdf) explaining the project implementation and team contributions.
+3. Include a link to a YouTube demonstration video in the comments.
 
 Assignment Instructions:
 
-1. Create a file called arrayDemo.html
-   - contains a form that includes:
-     + a reset button
-     + a submit button 
-     + inputs for:
-         a. the number of rows
-         b. number of columns
-         c. min random value
-         d. max random value.
-   - submits submitted form data to arrayDemo.php file.
-     
-2. Create a file called arrayDemo.php
-  - utilize PHP code to dynamically generate an HTML file whem returned by client.
-  - reveives form data
-  - fill a 2D array with the specified number of rows and columns from data.
-  - prints a table to present the values of the array in a table.
-  - prints a second table to present the sum, average, and standard deviation of each row.
-  - prints a third table with 2 rows for each row of data:
-      1st Row: the original values 
-      2nd Row: classification as "positive," "negative," or "zero."
-  - includes a link back to arrayDemo.html
+1. arrayDemo.html
+   - Create a file named arrayDemo.html
+   - Include a form with:
+     - Reset button
+     - Submit button
+     - Input fields for:
+       a. Number of rows
+       b. Number of columns
+       c. Min random value
+       d. Max random value
+   - Configure the form to submit data to arrayDemo.php
 
-Additional Instructions:
-- Utilize the number_format() function to limit decimal places to 3 where appropriate.
+2. arrayDemo.php
+   - Utilize PHP code to dynamically generate an HTML file when returned by the client
+   - Retreive form data
+   - Populate a 2D array with the specified number of rows and columns from the data
+   - Print the first table
+     - Display the values of the array in a table
+   - Print the second table
+     - Present the sum, average, and standard deviation of each row
+     - Utilize the number_format() function to limit decimal places to 3 where appropriate
+   - Print the third table
+     - Present data for each row in two distinct rows, comprising
+       - First Row: Original values
+       - Second Row: Classification as "positive," "negative," or "zero."
+   - Include a link back to arrayDemo.html
+
+Team Member Contributions:
+
+   Christian Morrow: 
+   
+   - Established Github Repository
+   - Creation of essential project files such as README.txt, arrayDemo.html, and arrayDemo.php
+   - Design and implementation of the HTML and PHP structure, documented through pseudocode.
+   
+   Tiara Mack:
+   
+   - [placeholder}
+   - [placeholder}
+   
+   Nyia
+   - [placeholder}
+   - [placeholder}
+   
+   ReΣ
+   - [placeholder}
+   - [placeholder}
